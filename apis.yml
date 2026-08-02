@@ -1,7 +1,29 @@
 aid: yoderm
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yoderm.png
 name: Yoderm
-description: Yoderm is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  YoDerm was a consumer telehealth company operating an online dermatology
+  platform that let patients upload photos and a medical questionnaire, receive
+  a personalized treatment plan from a U.S. board-certified dermatologist within
+  48 hours, and have prescriptions filled by mail-order pharmacy. Founded in
+  Oakland, California around 2012, it rebranded to Apostrophe in 2019, was
+  acquired by Hims & Hers Health (reported ~$190M), and ceased standalone
+  operations in March 2025 when the parent folded dermatology into its main
+  platform. It was surfaced as a portfolio company of 500 Global. YoDerm is a
+  direct-to-consumer telehealth product with no public developer program, no
+  documented API, and no OpenAPI, MCP, webhook, or SDK surface; the yoderm.com
+  domain now returns HTTP 503.
 url: https://raw.githubusercontent.com/api-evangelist/yoderm/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +31,20 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: >-
+  Rebranded to Apostrophe (2019), acquired by Hims & Hers, ceased operations
+  March 2025; yoderm.com returns HTTP 503. No public API surface.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Telehealth
+- Dermatology
+- Skincare
+- Healthcare
+- Direct-to-Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,8 @@ maintainers:
 common:
 - type: Website
   url: https://yoderm.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
