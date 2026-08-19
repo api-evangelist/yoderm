@@ -35,7 +35,7 @@ x-status: defunct
 x-status-note: >-
   Rebranded to Apostrophe (2019), acquired by Hims & Hers, ceased operations
   March 2025; yoderm.com returns HTTP 503. No public API surface.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
