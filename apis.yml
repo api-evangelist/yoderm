@@ -36,6 +36,8 @@ description: >-
   documented API, and no OpenAPI, MCP, webhook, or SDK surface; the yoderm.com
   domain now returns HTTP 503.
 url: https://raw.githubusercontent.com/api-evangelist/yoderm/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
