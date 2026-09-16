@@ -45,7 +45,7 @@ x-status-note: Rebranded to Apostrophe (2019), acquired by Hims & Hers, ceased o
   yoderm.com returns HTTP 503. No public API surface.
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-09-15'
+modified: '2026-09-16'
 tags:
 - Company
 - Telehealth
@@ -53,6 +53,7 @@ tags:
 - Skincare
 - Healthcare
 - Direct to Consumer
+- Defunct
 tags_raw:
 - Company
 - Telehealth
@@ -60,6 +61,7 @@ tags_raw:
 - Skincare
 - Healthcare
 - Direct-to-Consumer
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
